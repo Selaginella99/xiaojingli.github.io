@@ -6,9 +6,11 @@ tags: [tech]
 description: 
 
 
+
 excerpt: "对照博主提供的信息进行个性化配置"
 header:
   overlay_image: autumn.jpg
+  teaser : "autumn.jpg"
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   cta_label: "More Info "
@@ -31,10 +33,21 @@ header:
 
 # 添加题图
 ```
-excerpt: "This post should [...]"
+---
+layout: single
+title: "个性化配置"
+categories: [blog ]
+tags: [tech]
+description: 
+
+
+
+excerpt: "对照博主提供的信息进行个性化配置"
 header:
   overlay_image: autumn.jpg
+  teaser : "autumn.jpg"
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+---
 ```
 可以自行设计rgba
 
