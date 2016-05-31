@@ -15,13 +15,12 @@ url                      : # the base hostname & protocol for your site e.g. "ht
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : "bay.jpg"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            :  false
 words_per_minute         : 200
 comments:
-  provider               : false (default), "disqus", "facebook", "google-plus", custom"
+  provider               : "disqus"
   disqus:
-    shortname            : xiaojing
-  facebook:
+    shortname            : "starryskyli"
     # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
@@ -65,7 +64,7 @@ author:
   avatar           : "favicon.ico"
   bio              : "Hello welcome to my blog."
   location         : "Germany"
-  email            :
+  email            :  sommerlxj@gmail.com
   uri              :
   bitbucket        :
   codepen          :
@@ -205,3 +204,11 @@ compress_html:
   ignore:
     envs: development
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      read_time: true
+      comments: true
