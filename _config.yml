@@ -5,6 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+include: ["_pages"]
 # Site Settings
 locale                   : "zh-CN"
 title                    : "Starry Sky"
@@ -34,7 +35,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "497414881_path"
 facebook:
   username               :
   app_id                 :
@@ -43,15 +44,17 @@ og_image                 : "IMG_1293.JPG"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization ( to Person)
+  type                   :
   name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  links                  :
+     - "https://twitter.com/497414881_path"
+     - "https://www.linkedin.com/in/晓静-李-522188121"
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               :  "google"
   google:
-    tracking_id          :
+    tracking_id          : "UA-78556110-1"
 
 # Google AdSense
 google_ad_client         :
@@ -64,7 +67,7 @@ author:
   avatar           : "favicon.ico"
   bio              : "Hello welcome to my blog."
   location         : "Germany"
-  email            :  sommerlxj@gmail.com
+  email            : "sommerlxj@gmail.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -143,6 +146,40 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _foo
+  - scope:
+      path: ""
+      type: foo
+    values:
+      layout: single
+   # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: false
+      share: true
 
 # Outputting
 permalink: /:categories/:title/
@@ -204,11 +241,9 @@ compress_html:
   ignore:
     envs: development
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      read_time: true
-      comments: true
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
+

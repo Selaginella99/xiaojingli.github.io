@@ -1,16 +1,22 @@
 # main links links
 main:
-  - title: "Books"
-    url:
+  - title: "Quick-Start Guide"
+    url: /docs/quick-start-guide/
 
-  - title: "Language"
-    url:
+  - title: "Posts"
+    url: /year-archive/
 
-  - title: "Tech"
-    url:
+  - title: "Categories"
+    url: /categories/
 
-  - title: "About"
-    url:
+  - title: "Tags"
+    url: /tags/
 
-  - title: ""
-    url:
+  - title: "Pages"
+    url: /page-archive/
+
+  - title: "Collections"
+    url: /collection-archive/
+
+  - title: "External Link"
+    url: https://google.com
