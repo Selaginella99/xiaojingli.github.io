@@ -17,7 +17,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : "bay.jpg"
 breadcrumbs            :  false
-words_per_minute         : 200
+words_per_minute         : 100
 comments:
   provider               : "disqus"
   disqus:

@@ -1,16 +1,16 @@
 # main links links
 main:
-  - title: "About"
-    url: /About
+  - title: ""
+    url:
 
   - title: "随笔"
     url: /Essay
 
   - title: "技术"
-    url: /Tech
+    url: /techno
 
-  - title: ""
-    url:
+  - title: "关于"
+    url: /uber
 
   - title: ""
     url:
