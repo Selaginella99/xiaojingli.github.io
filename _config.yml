@@ -161,8 +161,8 @@ defaults:
       related: true
       excerpt: ""
       header:
-         overlay_image: bay.jpg
-         overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+        # overlay_image: bay.jpg
+        # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
 
   # _pages
@@ -186,6 +186,18 @@ defaults:
       layout: single
       author_profile: false
       share: true
+    # _docs
+  - scope:
+      path: ""
+      type: docs
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "docs"
 
 # Outputting
 permalink: /:categories/:title/
@@ -221,22 +233,21 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 
 # HTML Compression
@@ -246,8 +257,9 @@ compress_html:
   ignore:
     envs: development
 
+# Collections
 collections:
-  portfolio:
+  docs:
     output: true
     permalink: /:collection/:path/
 
