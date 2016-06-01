@@ -19,7 +19,7 @@ header:
 
 {% include toc icon="gears" title="My Table of Contents" %}
 
-# 关于此模板的几个重要连接：
+# 关于此模板的几个重要连接
 ---
 [docs/Layouts](https://mmistakes.github.io/minimal-mistakes/docs/layouts/)
 
