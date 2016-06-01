@@ -8,4 +8,9 @@ header:
 ---
 
 <img src="/images/book.jpg" width="200" height="200" alt="book"/>{: .align-left}[
+<<<<<<< HEAD
 外国文学中译汇编](/摘录/Translation-Version-02.14.49//)
+=======
+外国文学中译汇编](/blog/Translation-Version-02.14.49)
+
+>>>>>>> origin/master
