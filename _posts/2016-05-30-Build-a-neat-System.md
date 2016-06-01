@@ -44,6 +44,10 @@ header:
    2. 确认连接
    3. 登陆 amazon.cn 将gmail添加至「已认可的发件人电子邮箱列表」
    4. 在 IFTTT 中的「 send to 」填入 kindle 的邮箱地址
+   
+## Alfred 使用说明  
+- [Mac神软Alfred使用手册 1](http://wellsnake.com/jekyll/update/2014/06/15/001/)
+- [Mac神软Alfred使用手册 2](http://wellsnake.com/jekyll/update/2014/08/16/001/)
 
 
 # 安装homebrew
