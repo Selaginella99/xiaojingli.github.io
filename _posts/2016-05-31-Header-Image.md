@@ -147,7 +147,7 @@ Make any link standout more when applying the .btn class.
 
 # 关于目录
 1. 会影响代码的现实
-2. 目录旁课放置文字内容，其他的就算了吧……
+2. 目录旁可以放置文字内容，其他的就算了吧……
 
 End.
 

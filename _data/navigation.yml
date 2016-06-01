@@ -9,11 +9,13 @@ main:
   - title: "技术"
     url: /techno
 
-  - title: "关于"
-    url: /uber
 
-  - title: ""
-    url:
+  - title: "学语言"
+    url: /Languages
+
+  - title: " ARCHIVE"
+    url: /categories/
+
 
   - title: ""
     url:
