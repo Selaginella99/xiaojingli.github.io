@@ -8,4 +8,4 @@ header:
 ---
 
 <img src="/images/book.jpg" width="200" height="200" alt="book"/>{: .align-left}[
-外国文学中译汇编](/blog/Translation-Version/)
+外国文学中译汇编](/摘录/Translation-Version-02.14.49//)
