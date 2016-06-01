@@ -1,7 +1,7 @@
 ---
 layout: single
 title: 搭建简约系统&善用搜索工具
-categories: [blog ]
+categories: [Blog ]
 tags: [Tech,]
 description: 工欲善其事必先利其器
 

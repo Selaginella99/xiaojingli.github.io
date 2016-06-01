@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "个性化配置"
-categories: [blog ]
-tags: [tech]
+categories: [Blog ]
+tags: [Tech]
 description: 
 
 
