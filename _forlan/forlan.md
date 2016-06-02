@@ -1,5 +1,5 @@
 ---
 title: "Languages"
-permalink: /forlan
+permalink: /forlan/
 excerpt: "the motivation of learning languages here"
 ---
