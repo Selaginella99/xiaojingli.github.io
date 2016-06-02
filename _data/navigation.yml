@@ -3,21 +3,74 @@ main:
   - title: ""
     url:
 
-  - title: ""
-    url:
+  - title: "Reading & Music"
+    url: /readingandmusic/
 
-  - title: ""
-    url:
-
-
-  - title: ""
-    url:
-
-  - title: ""
-    url:
+  - title: "Life & Tech"
+    url: /lifeandtech/
 
 
-  - title: ""
-    url:
+  - title: "Travel"
+    url: /portfolio/
+
+  - title: "Programming"
+    url: /programming/
+
+
+  - title: "Languages"
+    url: /forlan
+
+  - title: "About"
+    url: /about/
+
+
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+# documentation links
+programming:
+  - title: "Motivation"
+    url: /programming
+
+  - title: "Begin"
+    children:
+      - title: "File"
+
+      - title: "List"
+        url: /programming/list/
+
+  - title: Advanced
+
+  - title: Notes
+
+forlan:
+  - title: "Motivation"
+    url: /forlan
+
+  - title: "Deutsch"
+
+  - title: "English"
+    children:
+      - title: "Translation"
+
+
+  - title: Notes
 
 

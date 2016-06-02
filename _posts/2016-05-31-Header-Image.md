@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "个性化配置"
-categories: [Blog ]
+categories: [Life_and_Tech]
 tags: [Tech]
 description: 
 
@@ -14,7 +14,7 @@ header:
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   cta_label: "More Info "
-  cta_url: "https://unsplash.com"
+  cta_url: "https://mmistakes.github.io/minimal-mistakes/"
 ---
 
 {% include toc icon="gears" title="My Table of Contents" %}

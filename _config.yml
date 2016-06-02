@@ -159,8 +159,9 @@ defaults:
       comments: true
       share: true
       related: true
-      excerpt: ""
-      header:
+
+      #excerpt: ""
+      #header:
         # overlay_image: bay.jpg
         # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
@@ -186,10 +187,10 @@ defaults:
       layout: single
       author_profile: false
       share: true
-    # _docs
+    # _programming
   - scope:
       path: ""
-      type: docs
+      type: programming
     values:
       layout: single
       read_time: false
@@ -197,12 +198,53 @@ defaults:
       share: false
       comments: false
       sidebar:
-        nav: "docs"
+        nav: "programming"
+     # _forlan
+  - scope:
+      path: ""
+      type: forlan
+    values:
+      layout: single
+      read_time: false
+      author_profile: false
+      share: false
+      comments: false
+      sidebar:
+        nav: "forlan"
+      # _readingandmusic
+  - scope:
+      path: ""
+      type: readingandmusic
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+      excerpt: ""
+      header:
+        overlay_image: bay.jpg
+        overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+      # _lifeandtech
+  - scope:
+      path: ""
+      type: lifeandtech
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+
+      excerpt: ""
+      header:
+        overlay_image: computer.jpg
+        overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 2 # amount of posts to show
+# paginate_path: /page:num/
 timezone:
 
 # Plugins
@@ -213,7 +255,7 @@ gems:
   - jekyll-feed
   - jemoji
   - jekyll-archives
-  
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -234,21 +276,22 @@ whitelist:
 #  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: jekyll-archives
+  type: liquid
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-  layouts:
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    category: /categories/:name/
-    tag: /tags/:name/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
@@ -260,7 +303,19 @@ compress_html:
 
 # Collections
 collections:
-  docs:
+  programming:
+    output: true
+    permalink: /:collection/:path/
+  forlan:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  readingandmusic:
+    output: true
+    permalink: /:collection/:path/
+  lifeandtech:
     output: true
     permalink: /:collection/:path/
 
