@@ -92,7 +92,15 @@ header:
 
 大致分类简述，就扩展程序的设置部分，如无必要不予以特别说明。
 
-# 搜索优化
+# Chrome 插件推荐
+
+感谢Az老师的博文！[Chrome 最佳扩展程序特辑](http://azeril.me/blog/The-Best-Chrome-Extensions.html)   
+ps.这个链接就是用markdown here生成的，太好用了！
+
+## 搜索优化
+
+感谢Az老师的博文！[Chrome 最佳扩展程序特辑](http://azeril.me/blog/The-Best-Chrome-Extensions.html)   
+ps.这个链接就是用markdown here生成的，太好用了！
 
 [Remove Google Redirection](https://chrome.google.com/webstore/detail/dnhjklgpiifbofihffldllbcopkinlod)    
 零延迟打开google
@@ -101,7 +109,7 @@ header:
 Google 官方推出的屏蔽网址的功能。
 
 
-# 快捷操作
+## 快捷操作
 
 [crxMouse Chrome Gestures](https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo)
 强大的鼠标手势工具，包含自定义手势和强力拖拽功能。  
