@@ -17,7 +17,7 @@ header:
 - 简约
 - 安静
 - 稳定
-- 搞笑
+- 高效
 - 贴心
 
 不用再为无休止的系统弹窗费心，也不会被系统的突然崩溃打乱进程。
@@ -86,7 +86,91 @@ header:
 
 5. 谷歌可以当做计算器
 
-## 如何利用谷歌搜索框添加自定义搜索
+## 2.如何利用谷歌搜索框添加自定义搜索
+
+网站 + tab 
+
+大致分类简述，就扩展程序的设置部分，如无必要不予以特别说明。
+
+# 搜索优化
+
+[Remove Google Redirection](https://chrome.google.com/webstore/detail/dnhjklgpiifbofihffldllbcopkinlod)    
+零延迟打开google
+
+[Personal Blocklist(by Google)](https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef)   
+Google 官方推出的屏蔽网址的功能。
+
+
+# 快捷操作
+
+[crxMouse Chrome Gestures](https://chrome.google.com/webstore/detail/jlgkpaicikihijadgifklkbpdajbkhjo)
+强大的鼠标手势工具，包含自定义手势和强力拖拽功能。  
+备选： [Gestures for Google Chrome™](https://chrome.google.com/webstore/detail/gestures-for-google-chrom/jpkfjicglakibpenojifdiepckckakgk)
+
+
+
+## 资源管理
+
+[OneTab](https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall) 
+
+> Save up to 95% memory and reduce tab clutter  
+
+一次关闭所有页面，并存档为组。可在未来再选择单个页面打开或打开组。一方面节约内存，一方面可以作为书签缓存来用（不自己删除链接会继续存储下去）。
+
+
+而且现在又增加了导入导出功能，一次导入一千枚标签，一卡都不卡。业界之良心！
+
+[1Password](https://chrome.google.com/webstore/detail/1password-password-manage/aomjjhallfgjeglblehebfpbcfeobpgk?hl)  
+密码管理工具
+
+备选：[LastPass](https://chrome.google.com/webstore/detail/lastpass-free-password-ma/hdokiejnpimakedhajhdlcegeplioahd?hl)
+
+[Xmarks Bookmark Sync](https://chrome.google.com/webstore/detail/xmarks-bookmark-sync/ajpgkpeckebdhofmmjfgcjjiiejpodla)  
+多浏览器下的书签同步管理工具
+
+[Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)  
+高效实用的代理管理与切换工具。Win OS 需求更大一点，Mac OS 及其它 Unix 系统非必须。
+
+
+
+
+## 内容采集
+
+[Nimbus Screenshot](https://chrome.google.com/webstore/detail/bpconcjcammlapcogcnnelfmaeghhagj)  
+足够好用的多功能截图工具。支持局部全局截图以及整个网页截图、支持涂鸦和编辑。并支持在线上传共享。  
+备选：[Awesome Screenshot: Capture & Annotate](https://chrome.google.com/webstore/detail/awesome-screenshot-screen/nlipoenfbbikpbjkfpfillcgkoblgpmj?hl=en)
+
+[Search by Image (by Google)](https://chrome.google.com/webstore/detail/search-by-image-by-google/dajedkncpodkggklbegccjpmnglmnflm)   
+
+> This extension allows you to initiate a Google search using any image on the web. By the Google Images team.
+
+Google的以图搜图工具，方便在网络浏览中发现的图片，找到最佳格式的原图。  
+[Instapaper](https://chrome.google.com/webstore/detail/instapaper/pjalnmnmioafeenidfbjkghaglaenjbp)
+
+
+备选：[Pocket](https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj)
+
+
+
+## 写作
+
+[Markdown Here](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)   
+在在线编辑器、邮件写作界面或支持 Markdown 语法的写作页面，一键将 Markdown 文本变成 html 
+
+[Copy as Markdown](https://chrome.google.com/webstore/detail/fkeaekngjflipcockcnpobkpbbfbhmdn)
+将 Chrome 下的网址、图片转为 Markdown 专用格式。
+
+
+
+## 美化
+
+[Earth View from Google Earth](https://chrome.google.com/webstore/detail/earth-view-from-google-ea/bhloflhklmhfpedakmangadcdofhnnoh)  
+Chrome 背景图替换为精选的 Google Map 鸟瞰图。
+
+备选 [Speed Dial 2](https://speeddial2.com/) 个性化的快速启动页
+
+[Isometric Contributions](https://chrome.google.com/webstore/detail/isometric-contributions/mjoedlfflcchnleknnceiplgaeoegien)  
+将 GitHub commits 日历 3D 显示。
 
 
 

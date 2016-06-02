@@ -1,0 +1,69 @@
+# example navigation
+foo:
+  - title: "Parent Link 1"
+    url: /parent-1-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+
+  - title: "Parent Link 2"
+    url: /parent-2-page-url/
+    children:
+      - title: "Child Link 1"
+        url: /child-1-page-url/
+      - title: "Child Link 2"
+        url: /child-2-page-url/
+      - title: "Child Link 3"
+        url: /child-3-page-url/
+
+
+# main links links
+main:
+  - title: "书籍&音乐"
+    url: /booksandmusic/
+
+  - title: "生活&技术"
+    url: /lifeandtech/
+
+  - title: "走走&玩玩"
+    url: /portfolio/
+
+  - title: "学学编程"
+    url: /programming/
+
+  - title: "练练语言"
+    url: /forlan/
+
+  - title: "汇总"
+    url: /year-archive/
+
+  - title: "我是……"
+    url: /about/
+
+
+
+
+# documentation links
+programming:
+  - title: Motivation
+    url: /programming
+
+  - title: Begin
+    children:
+      - title: "File"
+      - title: "List"
+        url: /programming/list/
+  - title: Advanced
+
+forlan:
+  - title: Motivation
+    url: /forlan
+
+  - title: Deutsch
+
+  - titlle: English
+    children:
+     - title: "Translation"
+  - title : Notes
