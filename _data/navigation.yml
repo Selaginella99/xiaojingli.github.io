@@ -1,10 +1,7 @@
 # main links links
 main:
-  - title: ""
-    url:
-
-  - title: "Reading & Music"
-    url: /readingandmusic/
+  - title: "Books & Music"
+    url: /booksandmusic/
 
   - title: "Life & Tech"
     url: /lifeandtech/
@@ -20,29 +17,13 @@ main:
   - title: "Languages"
     url: /forlan
 
-  - title: "About"
+  - title: "Posts by Year"
+    url: /year-archive/
+
+   - title: "About"
     url: /about/
 
 
-# example navigation
-foo:
-  - title: "Parent Link 1"
-    url: /parent-1-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-
-  - title: "Parent Link 2"
-    url: /parent-2-page-url/
-    children:
-      - title: "Child Link 1"
-        url: /child-1-page-url/
-      - title: "Child Link 2"
-        url: /child-2-page-url/
-      - title: "Child Link 3"
-        url: /child-3-page-url/
 
 # documentation links
 programming:

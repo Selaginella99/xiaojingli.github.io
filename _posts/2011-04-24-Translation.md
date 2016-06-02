@@ -1,10 +1,14 @@
 ---
 layout: single
 title: "外国文学中译本汇编"
-categories: [Reading_and_Music]
+categories: [Books_and_Music]
 tags: [Book]
 
 excerpt: "对于运输水果来说，保鲜效果是非常重要的，就翻译而言，好翻译总是妙在难言。"
+header:
+   overlay_image: header-old-2.jpg
+   overlay_filter: 0.5 
+   teaser: header-old-2.jpg
 ---
 
 关于外国文学的中译优秀版本整理 以作阅读和买书参考   

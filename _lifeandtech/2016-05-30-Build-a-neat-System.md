@@ -4,8 +4,11 @@ title: 搭建简约系统 & 善用搜索工具
 categories: [Life_and_Tech]
 tags: [Tech]
 description: 
-
 excerpt: "工欲善其事必先利其器"
+header:
+   overlay_image: computer.jpg
+   teaser: computer.jpg 
+   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 {% include toc icon="gears" title="My Table of Contents" %}
 

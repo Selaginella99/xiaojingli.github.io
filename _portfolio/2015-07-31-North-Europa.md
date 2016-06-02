@@ -1,7 +1,5 @@
 ---
 title: "北欧"
-categories: [Travel]
-tags: [NorthEuropa]
 excerpt: "芬兰，瑞典，丹麦 "
 header:
   image: bei-ou-2.jpeg

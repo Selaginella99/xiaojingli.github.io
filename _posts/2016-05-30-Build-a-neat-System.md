@@ -4,13 +4,16 @@ title: 搭建简约系统 & 善用搜索工具
 categories: [Life_and_Tech]
 tags: [Tech]
 description: 
-
 excerpt: "工欲善其事必先利其器"
+header:
+   overlay_image: computer.jpg
+   teaser: computer.jpg 
+   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
 {% include toc icon="gears" title="My Table of Contents" %}
 
 # 简约版系统的优势
-
+---
 - 简约
 - 安静
 - 稳定
@@ -20,13 +23,14 @@ excerpt: "工欲善其事必先利其器"
 不用再为无休止的系统弹窗费心，也不会被系统的突然崩溃打乱进程。
 
 # 方式
+---
 尽可能少的工具，尽可能多的熟悉
 
 - 重装：从头开始
 - 优化：优化再优化
 
 # 最佳应用软件清单
-
+---
 - Termial 的替代： iTerm
 - 编辑器：TextMate & Sublime Text
 - 存储类云盘：Dropbox
@@ -47,10 +51,45 @@ excerpt: "工欲善其事必先利其器"
 
 
 # 安装homebrew
+---
 
 1. 原来安装过，要注意更新（更新时需同时用三个命令行）
 2. 目前使用还不太熟练，以后可以慢慢继续尝试
 
 # 搜索工具的使用
+
+## 0.关键词力求清晰明确地界定条件
+
+常用符号：
+
+1. `"" `限定作用 `site:zhihu.com 手电筒`
+
+2. `*` 模糊搜索 `"生活的*"`
+
+3. `-` 排除：`笔记本 - 联想` 
+
+4. `filetype:pdf/word/pdf/jpg/gif + keyword`类别搜索
+
+5. `or` 关键词
+
+
+
+## 1. 输入框小技巧
+
+1. 货币换算 `1 dollars in rmb`
+
+2. 度量衡换算 `mile in km`
+
+3. 时间 `time Beijing`
+
+4. 日期 `农历`
+
+5. 谷歌可以当做计算器
+
+## 如何利用谷歌搜索框添加自定义搜索
+
+
+
+
 
 

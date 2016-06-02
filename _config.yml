@@ -160,10 +160,10 @@ defaults:
       share: true
       related: true
 
-      #excerpt: ""
-      #header:
-        # overlay_image: bay.jpg
-        # overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+      excerpt: ""
+      header:
+        overlay_image: bay.jpg
+        overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
 
   # _pages
@@ -211,16 +211,16 @@ defaults:
       comments: false
       sidebar:
         nav: "forlan"
-      # _readingandmusic
+      # _booksandmusic
   - scope:
       path: ""
-      type: readingandmusic
+      type: booksandmusic
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-
+      related: true
       excerpt: ""
       header:
         overlay_image: bay.jpg
@@ -234,10 +234,10 @@ defaults:
       author_profile: true
       share: true
       comment: true
-
+      related: true
       excerpt: ""
       header:
-        overlay_image: computer.jpg
+        overlay_image: bay.jpg
         overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
 
@@ -312,7 +312,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  readingandmusic:
+  booksandmusic:
     output: true
     permalink: /:collection/:path/
   lifeandtech:

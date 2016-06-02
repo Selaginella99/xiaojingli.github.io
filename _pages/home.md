@@ -15,13 +15,13 @@ excerpt: "堂吉诃德提醒我们，如果我们只在不被辜负的时候去�
 intro: 
   - excerpt: '欢迎来到我的博客'
 feature_row:
-  - image_path: unsplash-gallery-image-1-th.jpg
+  - image_path: hm-2.jpeg
     alt: "placeholder image 1"
-    title: "Reading & Music"
-    url: "/readingandmusic"
+    title: "Books & Music"
+    url: "/booksandmusic"
     btn_label: "Read More"
     btn_class: "btn--inverse"
-  - image_path: unsplash-gallery-image-2-th.jpg
+  - image_path: header-creativ.jpeg
     alt: "placeholder image 2"
     title: "Life & Tech"
     url: "/lifeandtech"
