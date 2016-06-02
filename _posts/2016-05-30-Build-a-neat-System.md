@@ -103,7 +103,8 @@ ps.这个链接就是用markdown here生成的，太好用了！
 ps.这个链接就是用markdown here生成的，太好用了！
 
 [Remove Google Redirection](https://chrome.google.com/webstore/detail/dnhjklgpiifbofihffldllbcopkinlod)    
-零延迟打开google
+- 零延迟打开google
+- 在使用 Copy as markdown 的时候也会方便很多，搜索意闲老师的博客时，可以直接生成`[意闲 - 豆瓣](https://www.douban.com/people/Ciyunw/)`
 
 [Personal Blocklist(by Google)](https://chrome.google.com/webstore/detail/nolijncfnkgaikbjbdaogikpmpbdcdef)   
 Google 官方推出的屏蔽网址的功能。
@@ -163,7 +164,8 @@ Google的以图搜图工具，方便在网络浏览中发现的图片，找到�
 ## 写作
 
 [Markdown Here](https://chrome.google.com/webstore/detail/elifhakcjgalahccnjkneoccemfahfoa)   
-在在线编辑器、邮件写作界面或支持 Markdown 语法的写作页面，一键将 Markdown 文本变成 html 
+在在线编辑器、邮件写作界面或支持 Markdown 语法的写作页面，一键将 Markdown 文本变成 html   
+目测智能用于邮件？
 
 [Copy as Markdown](https://chrome.google.com/webstore/detail/fkeaekngjflipcockcnpobkpbbfbhmdn)
 将 Chrome 下的网址、图片转为 Markdown 专用格式。
