@@ -1,5 +1,5 @@
 ---
-title: "STAARY SKY"
+title: "STARRY SKY"
 layout: splash
 permalink: /
 date: 2016-03-23T11:48:41-04:00
@@ -18,13 +18,13 @@ feature_row:
   - image_path: hm-2.jpeg
     alt: "placeholder image 1"
     title: "Books & Music"
-    url: "/categories/Book/"
+    url: "/booksandmusic/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: header-creativ.jpeg
     alt: "placeholder image 2"
     title: "Life & Tech"
-    url: "/categories/Life"
+    url: "/lifeandtech/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: unsplash-gallery-image-3-th.jpg
