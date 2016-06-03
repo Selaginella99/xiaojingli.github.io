@@ -18,13 +18,13 @@ feature_row:
   - image_path: hm-2.jpeg
     alt: "placeholder image 1"
     title: "Books & Music"
-    url: "/booksandmusic"
+    url: "/categories/Book/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: header-creativ.jpeg
     alt: "placeholder image 2"
     title: "Life & Tech"
-    url: "/lifeandtech"
+    url: "/categories/Life"
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: unsplash-gallery-image-3-th.jpg

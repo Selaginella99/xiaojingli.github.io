@@ -1,8 +1,8 @@
 ---
 
 title: 搭建简约系统 & 善用搜索工具
-categories: [Life_and_Tech]
-tags: [Tech]
+categories: [Life]
+tags: []
 description: 
 excerpt: "工欲善其事必先利其器"
 header:

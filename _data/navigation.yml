@@ -22,10 +22,10 @@ foo:
 # main links links
 main:
   - title: "书籍&音乐"
-    url: /booksandmusic/
+    url: /categories/Book/
 
   - title: "生活&技术"
-    url: /lifeandtech/
+    url: /categories/Life/
 
   - title: "走走&玩玩"
     url: /portfolio/

@@ -1,8 +1,8 @@
 ---
 layout: single
 title: "个性化配置"
-categories: [Life_and_Tech]
-tags: [Tech]
+categories: [Life]
+tags: []
 description: 
 excerpt: "对照博主提供的信息进行个性化配置"
 header:
