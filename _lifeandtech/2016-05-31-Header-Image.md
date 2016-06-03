@@ -1,16 +1,13 @@
 ---
 layout: single
 title: "个性化配置"
-categories: [Life_and_Tech]
-tags: [Tech]
+categories: [Life]
+tags: []
 description: 
-
-
-
 excerpt: "对照博主提供的信息进行个性化配置"
 header:
-  overlay_image: autumn.jpg
-  teaser : "autumn.jpg"
+  overlay_image: header-autumn.jpg
+  teaser : "header-autumn.jpg"
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   cta_label: "More Info "
