@@ -18,7 +18,6 @@ foo:
       - title: "Child Link 3"
         url: /child-3-page-url/
 
-
 # main links links
 main:
   - title: "书籍&音乐"
@@ -42,28 +41,45 @@ main:
   - title: "我是……"
     url: /about/
 
-
-
-
 # documentation links
 programming:
-  - title: Motivation
+  - title: "Motivation"
     url: /programming
 
-  - title: Begin
+  - title: "Begin"
     children:
       - title: "File"
       - title: "List"
         url: /programming/list/
-  - title: Advanced
+
+  - title: "Advanced"
+
+  - title: "Notes"
+    children:
+      - title: "记录"
+
 
 forlan:
   - title: Motivation
     url: /forlan/
 
-  - title: Deutsch
-
-  - titlle: English
+  - title: "Deutsch"
+    url:
     children:
-     - title: "Translation"
-  - title : Notes
+      - title: "Translation"
+      - title:
+        url:
+      - title:
+        url:
+      - title:
+        url:
+
+  - title: "English"
+    url:
+    children:
+      - title:
+        url:
+      - title:
+        url:
+      - title:
+        url:
